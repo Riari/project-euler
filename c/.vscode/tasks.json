@@ -6,6 +6,7 @@
             "label": "Build active file",
             "command": "/usr/bin/gcc",
             "args": [
+                "-O3",
                 "-g",
                 "${file}",
                 "-o",
