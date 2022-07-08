@@ -9,6 +9,7 @@
                 "-O3",
                 "-g",
                 "${file}",
+                "-lm",
                 "-o",
                 "${workspaceFolder}/build/${relativeFileDirname}"
             ],
